@@ -1,0 +1,10 @@
+import clipboard from 'clipboardy';
+import makeOutput from './helper/makeOutput';
+const main = () => {
+    const c = clipboard.readSync();
+    const arr = c.split(/\r\n/);
+    console.log(arr);
+    const output = makeOutput(arr);
+    console.log(output);
+};
+main();
