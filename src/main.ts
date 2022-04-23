@@ -1,4 +1,4 @@
-import clipboard from 'clipboardy'
+import * as clipboard from 'clipboardy'
 import makeOutput from './helper/makeOutput'
 
 const main = (): void => {
