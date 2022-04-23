@@ -1,5 +1,5 @@
 import * as clipboard from 'clipboardy'
-import makeOutput from './helper/makeOutput'
+import makeOutput from './helper/makeOutput.js'
 
 const main = (): void => {
   const c = clipboard.readSync()
