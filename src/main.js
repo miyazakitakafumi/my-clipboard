@@ -1,5 +1,5 @@
 import clipboard from 'clipboardy';
-import makeOutput from './helper/makeOutput';
+import makeOutput from './helper/makeOutput.js';
 const main = () => {
     const c = clipboard.readSync();
     const arr = c.split(/\r\n/);
